@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.google.com/specimen/Outfit');
+    html, body{display: flex; flex-direction: column; background-color: hsl(212, 45%, 89%); height:100%; font-family: "Outfit", sans-serif;}
+    .container {background-color: white; width: 400px; height: 630px; margin: auto; border-radius: 1rem;}
+    .container-img{width: 360px; height: 360px; margin:20px auto}
+    img{max-height: 100%; max-height: 100%; border-radius: 1rem;}
+    .container-desc {text-align: center; padding:1rem}
+    .container-desc h3{font-size: 1.6rem; color: hsl(218, 44%, 22%); font-weight: bolder;}
+    .container-desc p{font-size: 1.2rem; color: grey;}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media (max-width:375px){
+      .container {width: 300px; height: 470px;}
+      .container-img{width: 260px; height: 260px;}
+      .container-desc {padding:0.5rem}
+      .container-desc h3{font-size: 1.2rem;}
+      .container-desc p{font-size: 0.9rem;}
+
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container-img">
+      <img src="images/image-qr-code.png" alt="">
+      <div class="container-desc">
+        <h3>Improve your front-end skills by building projects</h3>
+        <p>  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">OneYC</a>.
+  </div>
+</body>
+</html>
